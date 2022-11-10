@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
   declarations: [AppComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  //bootstrap: [],
+  //bootstrap: [AppComponent], // to test the component 
   entryComponents: [AppComponent],
 })
 export class AppModule {
